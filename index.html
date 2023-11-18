@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta http-equiv="X-UA-Compatible" contents = "IE=edge">
+        <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+        <link rel="icon" href="images/favicon_io/favicon.ico" type = "image/x-icon">
+        <title>Usman Pathan</title>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+       
+        <link rel= "stylesheet" href='css/style.css'>
+    </head>
+
+    <body>
+
+        <header class = "header">
+            <a href = "#" class="logo">Portfolio</a>
+            <i class='bx bx-menu' id="menu-icon"></i>
+
+            <nav class="navbar">
+                <a href = "#home" class="active">Home</a>
+                <a href = "#education">Education</a>
+                <a href = "#experience">Experience</a>
+                <a href = "#projects">Projects</a>
+                <a href = "#contact">Contact</a>
+            </nav>
+        </header>
+
+        <!-- home section  -->
+        <section class="home" id="home">
+            <div class = "home-content">
+                <h3> Hii, It's Me</h3>
+                <h1> Usman Pathan</h1>
+                <h3> And I'm a <span class="multiple-text"></span></h3>
+                <p>Passionate data scientist with a knack for extracting insights from complex data sets, driving data-informed decisions to solve real-world problems.</p>
+                <div class="social-media">
+                    <a href="https://www.instagram.com/usman_bvp/"><i class="bx bxl-instagram-alt"></i></a>
+                    <a href="https://www.linkedin.com/in/usmanbvp/"><i class="bx bxl-linkedin"></i></a>
+                    <a href="mailto:usman.bvp@gmail.com"><i class='bx bxl-gmail' ></i></a>
+                    <a href="https://github.com/usmanbvp"><i class='bx bxl-github' ></i></a>
+                </div>
+                <a href="https://drive.google.com/file/d/1ZaE5oOZshiTPCK5H-Lousio3-02BCPeW/view?usp=sharing" class="btn">Download Resume</a>
+            </div>
+
+            <div class = "home-img">
+                <img src="images/pic.png" alt="My Pic">
+            </div>
+        </section>
+
+        <!-- Education Section-->
+        <section class="education" id = "education">
+            <div class="education-img">
+                <img src="images/learning.svg" alt="Certificate">
+            </div>
+
+            <div class="education-content">
+                <h2 class="heading">Education</h2>
+                <h3>Basic Qualification and Certifications</h3>
+                <br>
+                <h3>Degrees Received</h3>
+                <div class = "college-details">
+                   <img src="images/college_logo.png" alt="JNTUA Kalikiri"> 
+                </div>
+            </div>
+        </section>
+
+        
+
+        <!-- Experience section -->
+        <section class="experience" id="experience">
+            <h2 class="heading">Internships</h2>
+            <div class="experience-container">
+                <div class="experience-box">
+                    <img src="images/pic.jpg" alt="Internship related pic">
+                    <div class=""></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section-->
+        <section class="projects" id="projects">
+            <h2 class="heading">My <span>Projects</span></h2>
+            <div class="projects-container">
+                <div class="projects-box">
+                    <i class="bx bx-code-alt"></i>
+                    <h3>Telecom Customer Churn Prediction</h3>
+                    <p>• Developed a user input Churn prediction model, in which customer was predicted at churned or not based on various 
+                        measurements.
+                        • I have explored various models such as Logistic Regression. Support Vector Machine and random forest.</p>
+                    <a href="#" class="btn">Read More</a>   
+                </div>
+
+                <div class="projects-box">
+                    <i class="bx bx-code-alt"></i>
+                    <h3>Employees Burnout Analysis & Prediction</h3>
+                    <p>• Developed a model to predict burnout rate of an employee based on various factors.
+                        • In this project, I have explored various models such as Linear Regression, Support Vector Machine. Random Forest</p>
+                    <a href="#" class="btn">Read More</a>   
+                </div>
+
+                <div class="projects-box">
+                    <i class="bx bx-code-alt"></i>
+                    <h3>Car Price Prediction</h3>
+                    <p>• Developed a model to predict the price of a car based on various measurements like Location,
+                        Mileage, Engine, Power etc
+                        • Used Random Forest Regressor to build the car prices prediction model.</p>
+                    <a href="#" class="btn">Read More</a>   
+                </div>
+                
+            </div>
+            <a href="#" class="btn"  align = "centre">Read More</a>   
+        </section>
+        <!-- contact section-->
+        <section class = "contact" id="contact">
+            <h2 class="heading">Contact <span>Me!</span></h2>
+            
+            <form id="contactForm" onsubmit="clearForm()"  action=" ">
+                <div class="input-box">
+                    <input type="text"  id = "name" placeholder="Full Name">
+                    <input type="email" id = "email" placeholder="Email Address">
+                </div>
+                <div class="input-box">
+                    <input type="text" id = "number" placeholder="Mobile Number">
+                    <input type="text" id = "emailsubject" placeholder="Email Subject">
+                </div>
+                <textarea  cols="30" rows="10" id = "message" placeholder="Your Message"></textarea>
+                <input type="button" value="send message" class="btn" onclick="Send()">
+            </form>
+        </section>
+
+        <!-- footer -->
+        <footer class="footer">
+            <div class="footer-text">
+                <p>Made with ❤️ by Usman Pathan </p>
+            </div>
+            <div class="footer-iconTop">
+                <a href="#home"><i class = 'bx bx-up-arrow-alt'></i></a>
+            </div>
+        </footer>
+
+        <!-- scroll reveal-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <!-- types js-->
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+
+
+        <!-- customized js-->
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+
+        <script src = "js/script.js"></script>
+    </body>
+</html>
