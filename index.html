@@ -148,14 +148,14 @@
 
 
         <script>
-            // Function to toggle a class on mouseover and touchstart events
+            // Function to handle mouseover and touchstart events
             function handleHover(element) {
-                element.classList.add('hovered');
+                element.style.backgroundColor = '#e0e0e0'; // Change this to your desired hover color
             }
         
-            // Function to remove the class on mouseout and touchend events
+            // Function to handle mouseout and touchend events
             function handleUnhover(element) {
-                element.classList.remove('hovered');
+                element.style.backgroundColor = ''; // Reset the background color
             }
         
             // Get all input elements and the button
@@ -180,7 +180,6 @@
                 });
             });
         </script>
-        
         
 
         <script src = "js/script.js"></script>
