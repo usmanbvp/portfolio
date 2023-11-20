@@ -49,9 +49,6 @@
 
         <!-- Education Section-->
         <section class="education" id = "education">
-            <div class="education-img">
-                <img src="images/king.svg" alt="Certificate">
-            </div>
 
             <div class="education-content">
                 <h2 class="heading">Education</h2>
@@ -149,6 +146,42 @@
         <script src="https://smtpjs.com/v3/smtp.js"></script>
         <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
+
+        <script>
+            // Function to toggle a class on mouseover and touchstart events
+            function handleHover(element) {
+                element.classList.add('hovered');
+            }
+        
+            // Function to remove the class on mouseout and touchend events
+            function handleUnhover(element) {
+                element.classList.remove('hovered');
+            }
+        
+            // Get all input elements and the button
+            var inputElements = document.querySelectorAll('.input-box input, textarea, .btn');
+        
+            // Add event listeners for mouseover, mouseout, touchstart, and touchend
+            inputElements.forEach(function (element) {
+                element.addEventListener('mouseover', function () {
+                    handleHover(element);
+                });
+        
+                element.addEventListener('mouseout', function () {
+                    handleUnhover(element);
+                });
+        
+                element.addEventListener('touchstart', function () {
+                    handleHover(element);
+                });
+        
+                element.addEventListener('touchend', function () {
+                    handleUnhover(element);
+                });
+            });
+        </script>
+        
+        
 
         <script src = "js/script.js"></script>
     </body>
