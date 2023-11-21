@@ -265,6 +265,11 @@ span {
     display: inline-block; /* Make the button a block element */
     margin-top: 15px; /* Adjust the top margin as needed */
 }
+
+.center-button {
+    margin-top: 20px;
+    text-align: center; /* Center text horizontally */
+}
 .contact h2{
     margin-bottom: 3rem;
 }
@@ -305,6 +310,7 @@ span {
     margin-top: 2rem;
     cursor: pointer;
 }
+
 
 .footer {
     display: flex;

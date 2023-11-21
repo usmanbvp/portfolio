@@ -9,6 +9,28 @@
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
        
         <link rel= "stylesheet" href='css/style.css'>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+    
+            .container {
+                display: flex;
+                align-items: center;
+                padding: 20px;
+            }
+    
+            .logo {
+                max-width: 50px; /* Adjust the size of your logo */
+                margin-right: 20px; /* Adjust the spacing between logo and content */
+            }
+    
+            .content {
+                flex: 1; /* Allow content to take up remaining space */
+            }
+        </style>
     </head>
 
     <body>
@@ -52,7 +74,7 @@
 
             <div class="education-content">
                 <h2 class="heading">Education</h2>
-                <h3>Basic Qualification and Certifications</h3>
+                <h3><b>Basic Qualification and Certifications</b></h3>
                 <br>
                 <h3>Degrees Received</h3>
                 <div class = "college-details">
@@ -66,10 +88,11 @@
         <!-- Experience section -->
         <section class="experience" id="experience">
             <h2 class="heading">Internships</h2>
-            <div class="experience-container">
-                <div class="experience-box">
-                    <img src="images/pic.jpg" alt="Internship related pic">
-                    <div class=""></div>
+            <div class="container">
+                <img src="path/to/your/logo.png" alt="Logo" class="logo">
+                <div class="content">
+                    <h1>Your Content Title</h1>
+                    <p>Your content goes here. You can add text, images, or other elements.</p>
                 </div>
             </div>
         </section>
@@ -84,7 +107,7 @@
                     <p>• Developed a user input Churn prediction model, in which customer was predicted at churned or not based on various 
                         measurements.
                         • I have explored various models such as Logistic Regression. Support Vector Machine and random forest.</p>
-                    <a href="#" class="btn">Read More</a>   
+                    <a href="https://github.com/usmanbvp/Telecom-Customer-Churn-Prediction" class="btn">Read More</a>   
                 </div>
 
                 <div class="projects-box">
@@ -92,7 +115,7 @@
                     <h3>Employees Burnout Analysis & Prediction</h3>
                     <p>• Developed a model to predict burnout rate of an employee based on various factors.
                         • In this project, I have explored various models such as Linear Regression, Support Vector Machine. Random Forest</p>
-                    <a href="#" class="btn">Read More</a>   
+                    <a href="https://github.com/usmanbvp/Employees-Burnout-Analysis-and-Prediction" class="btn">Read More</a>   
                 </div>
 
                 <div class="projects-box">
@@ -101,11 +124,13 @@
                     <p>• Developed a model to predict the price of a car based on various measurements like Location,
                         Mileage, Engine, Power etc
                         • Used Random Forest Regressor to build the car prices prediction model.</p>
-                    <a href="#" class="btn">Read More</a>   
+                    <a href="https://github.com/usmanbvp/Car-Price-Prediction" class="btn">Read More</a>   
                 </div>
                 
             </div>
-            <a href="#" class="btn"  align = "centre">Read More</a>   
+            <div class="center-button">
+                <a href="https://github.com/usmanbvp?tab=repositories" class="btn">More Projects</a>   
+            </div>
         </section>
         <!-- contact section-->
         <section class = "contact" id="contact">
@@ -150,7 +175,7 @@
         <script>
             // Function to handle mouseover and touchstart events
             function handleHover(element) {
-                element.style.backgroundColor = '#e0e0e0'; // Change this to your desired hover color
+                element.style.backgroundColor = '#87CEEB'; // Change this to your desired hover color
             }
         
             // Function to handle mouseout and touchend events
@@ -159,7 +184,7 @@
             }
         
             // Get all input elements and the button
-            var inputElements = document.querySelectorAll('.input-box input, textarea, .btn');
+            var inputElements = document.querySelectorAll('.input-box input, textarea');
         
             // Add event listeners for mouseover, mouseout, touchstart, and touchend
             inputElements.forEach(function (element) {
