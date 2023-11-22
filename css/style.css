@@ -181,26 +181,97 @@ span {
     text-align: center;
     font-size: 4.5rem;
 }
+.college-details {
+
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.college-details img {
+    max-width: 100px;
+    margin-right: 20px;
+
+
+}
 
 .education-content h2{
-    text-align: left;
+    text-align: center;
     line-height: 1.2;
 }
-.education-content h3 {
-    font-size: 2.6rem;
+.education-content h4 {
+    font-size: 2.2rem;
     color: #0ef;
 }
-
+.education-content .sub-heading {
+    font-size: 2.6rem;
+}
 .education-content p{
     font-size: 1.6rem;
-    margin: 2rem 0 3rem;
+
+}
+/* certifications field in education*/
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap; /* Allow wrapping to the next line if the space is not enough */
+    padding: 20px;
+    /* Add more styling as needed */
+}
+.image-container img {
+    margin-right: 2px; /* Adjust horizontal gap between images */
+    margin-bottom: 10px; /* Adjust vertical gap between images */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 27%; /* Adjust image width as needed */
+    border: 1px solid #ddd; /* Example border style */
+    border-radius: 8px; /* Example border radius */
+    margin: 1px; /* Adjust margin as needed */
+
 }
 
-.coding-platforms a:hover {
-    background: var(--main-color);
-    color: var(--second-bg-color);
-    box-shadow: 0 0 1rem var(--main-color);
+.image-container a {
+    text-decoration: none; /* Remove underline from links */
+    text-align: center; /* Center the text */
+    margin: 10px 0; /* Adjust margin as needed */
+    width: 30%; /* Set width to the same as image width */
+    display: block; /* Ensure the entire area is clickable */
+}
 
+.image-container p {
+    margin-right: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin: 0; /* Remove default margin for paragraphs */
+    pointer-events: none;
+    color: #000;
+    font-weight: bold;
+}
+
+/* Add this CSS for small screens */
+@media (max-width: 768px) {
+    .college-details {
+        flex-direction: column; /* Stack items vertically on small screens */
+        align-items: center; /* Center items on small screens */
+        text-align: center; /* Center text on small screens */
+    }
+
+    .college-details img {
+        margin-bottom: 10px; /* Add some space between the image and text on small screens */
+    }
+
+    .image-container a {
+        width: 100%; /* Make each certification take the full width on small screens */
+    }
+
+    .image-container img {
+        max-width: 100%; /* Make the images fill the container width on small screens */
+        margin-bottom: 10px; /* Add some space between the certification images on small screens */
+    }
 }
 
 .btn{
@@ -267,8 +338,10 @@ span {
 }
 
 .center-button {
-    margin-top: 20px;
-    text-align: center; /* Center text horizontally */
+        display: flex;
+        justify-content: center;
+        margin-top: 20px; /* Adjust the margin as needed */
+        text-align: center; /* Center text horizontally */
 }
 .contact h2{
     margin-bottom: 3rem;
