@@ -252,27 +252,6 @@ span {
     font-weight: bold;
 }
 
-/* Add this CSS for small screens */
-@media (max-width: 768px) {
-    .college-details {
-        flex-direction: column; /* Stack items vertically on small screens */
-        align-items: center; /* Center items on small screens */
-        text-align: center; /* Center text on small screens */
-    }
-
-    .college-details img {
-        margin-bottom: 10px; /* Add some space between the image and text on small screens */
-    }
-
-    .image-container a {
-        width: 100%; /* Make each certification take the full width on small screens */
-    }
-
-    .image-container img {
-        max-width: 100%; /* Make the images fill the container width on small screens */
-        margin-bottom: 10px; /* Add some space between the certification images on small screens */
-    }
-}
 
 .btn{
     text-decoration: none;
@@ -424,13 +403,14 @@ span {
     section {
         padding: 10rem 3% 2rem;
     }
+    .education {
+        padding-bottom: 7rem;
+    }
+
     .projects {
         padding-bottom: 7rem;
     }
 
-    .portfoilo {
-        padding-bottom: 7rem;
-    }
 
     .contact {
         min-height: auto;
