@@ -24,7 +24,7 @@ Welcome to my portfolio! This project showcases my skills, projects, and experie
 - JavaScript
 
 ## Installation
-1. Clone the repository: `git clone https://github.com/your-username/your-portfolio.git`
+1. Clone the repository: `git clone https://github.com/usmanbvp/usmanbvp.github.io`
 2. Navigate to the project directory: `cd your-portfolio`
 
 ## Usage
