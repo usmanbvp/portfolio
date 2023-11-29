@@ -1,4 +1,4 @@
-# Portfolio
+# Data Scientist Portfolio
 
 Welcome to my portfolio! This project showcases my skills, projects, and experience as a Data Science Aspirant using HTML, CSS, and JavaScript.
 
