@@ -1,17 +1,10 @@
-# Portfolio
+# Data Scientist Portfolio
 
 Welcome to my portfolio! This project showcases my skills, projects, and experience as a Data Science Aspirant using HTML, CSS, and JavaScript.
 
-## Table of Contents
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
+GitHub issues
+📝 Description
+In this project, I undertook the challenge of [briefly describe the main goal or problem addressed by the project]. Leveraging my skills in [mention relevant technologies or programming languages], I aimed to [explain the specific objectives or outcomes you intended to achieve].
 ## Features
 - **Responsive Design:** The portfolio is designed to be responsive and accessible on various devices.
 - **Project Showcase:** Highlighting key projects with descriptions and links.
@@ -24,7 +17,7 @@ Welcome to my portfolio! This project showcases my skills, projects, and experie
 - JavaScript
 
 ## Installation
-1. Clone the repository: `git clone https://github.com/your-username/your-portfolio.git`
+1. Clone the repository: `git clone https://github.com/usmanbvp/usmanbvp.github.io`
 2. Navigate to the project directory: `cd your-portfolio`
 
 ## Usage
