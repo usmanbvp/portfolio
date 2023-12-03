@@ -162,21 +162,14 @@ span {
     box-shadow: none;
 }
 
-.education{
-    display: flex;
-    justify-content: center;
-    align-items: right;
-    background: var(--second-bg-color);
-    margin-top: 2rem;
+/*education section styling*/
+
+.education h2 {
+    margin-top: 0.8rem;
+    line-height: 1.2rem;
 }
 
-.education-img img {
-    width: 35vw;
-    margin-right: 2rem;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
+
 .heading {
     text-align: center;
     font-size: 4.5rem;
@@ -192,8 +185,9 @@ span {
     max-width: 100px;
     margin-right: 20px;
 
+    animation: floatImage 4s ease-in-out infinite;
+} 
 
-}
 
 .education-content h2{
     text-align: center;
@@ -210,67 +204,30 @@ span {
     font-size: 1.6rem;
 
 }
-/* certifications field in education*/
-.image-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-wrap: wrap; /* Allow wrapping to the next line if the space is not enough */
-    padding: 20px;
-    /* Add more styling as needed */
-}
-.image-container img {
-    margin-right: 2px; /* Adjust horizontal gap between images */
-    margin-bottom: 10px; /* Adjust vertical gap between images */
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    max-width: 27%; /* Adjust image width as needed */
-    border: 1px solid #ddd; /* Example border style */
-    border-radius: 8px; /* Example border radius */
-    margin: 1px; /* Adjust margin as needed */
-
-}
-
-.image-container a {
-    text-decoration: none; /* Remove underline from links */
-    text-align: center; /* Center the text */
-    margin: 10px 0; /* Adjust margin as needed */
-    width: 30%; /* Set width to the same as image width */
-    display: block; /* Ensure the entire area is clickable */
-}
-
-.image-container p {
-    margin-right: 2rem;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-
-    margin: 0; /* Remove default margin for paragraphs */
-    pointer-events: none;
-    color: #000;
-    font-weight: bold;
-}
-
-
-.btn{
+.certifications a {
     text-decoration: none;
-    display: inline-block;
-    padding: 1rem 2.8rem;
-    background: var(--main-color);
-    border-radius: 4rem;
-    box-shadow: 0 0 1rem var(--main-color);
+    color: #0ef;
+}
+
+.achievements a {
+    text-decoration: none;
+    color: #0ef;
+}
+
+/*experience section styling*/
+.experience .internship-title {
+    color: #0ef;
+    font-size: 2.2rem;
+}
+
+.experience .org-duration {
+    font-size: 2.2rem;
+}
+.experience p {
     font-size: 1.6rem;
-    color: var(--second-bg-color);
-    letter-spacing: .1rem;
-    font-weight: 600;
-    transition: .5s ease;
+    line-height: 1.9;
 }
-
-.btn:hover{
-    box-shadow: none;
-}
-
+/* projects section styling*/
 .projects h2{
     margin-top: 0.8rem;
 
@@ -322,6 +279,9 @@ span {
         margin-top: 20px; /* Adjust the margin as needed */
         text-align: center; /* Center text horizontally */
 }
+
+
+/* contact section stylings*/
 .contact h2{
     margin-bottom: 3rem;
 }
@@ -404,6 +364,10 @@ span {
         padding: 10rem 3% 2rem;
     }
     .education {
+        padding-bottom: 7rem;
+    }
+
+    .experience {
         padding-bottom: 7rem;
     }
 
@@ -522,3 +486,6 @@ span {
             margin-top: 2rem;
         }
     }
+
+
+

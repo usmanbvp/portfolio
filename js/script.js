@@ -47,9 +47,9 @@ navbar.classList.remove('active');
  });
 
  ScrollReveal().reveal('.home-content, .heading', {origin : 'top'});
- ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact form', {origin : 'bottom'});
- ScrollReveal().reveal('.home-content h1, .about-img', {origin : 'left'});
- ScrollReveal().reveal('.home-content p .about-content', {origin : 'right'});
+ ScrollReveal().reveal('.home-img, .contact form', {origin : 'bottom'});
+ ScrollReveal().reveal('.home-content h1', {origin : 'left'});
+ ScrollReveal().reveal('.home-content p', {origin : 'right'});
 
 
  /* typed js*/
@@ -102,3 +102,25 @@ navbar.classList.remove('active');
     clearForm();
 
 }
+
+            // Get all input elements and the button
+            var inputElements = document.querySelectorAll('.input-box input, textarea');
+        
+            // Add event listeners for mouseover, mouseout, touchstart, and touchend
+            inputElements.forEach(function (element) {
+                element.addEventListener('mouseover', function () {
+                    handleHover(element);
+                });
+        
+                element.addEventListener('mouseout', function () {
+                    handleUnhover(element);
+                });
+        
+                element.addEventListener('touchstart', function () {
+                    handleHover(element);
+                });
+        
+                element.addEventListener('touchend', function () {
+                    handleUnhover(element);
+                });
+            });
