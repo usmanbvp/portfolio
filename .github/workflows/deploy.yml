@@ -1,0 +1,24 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Deploy App
+      run: |
+        echo "Deploying..."
+        # Replace 'YOUR_DEPLOYMENT_DIRECTORY' with the path where you want to deploy your files
+        # For example, if your website files are in the root of your repository, you can deploy to the repository root
+        rsync -avz --exclude='.git/' ./
+
+      env:
+        CONTACT_FORM_TOKEN: ${{ secrets.CONTACT_FORM_TOKEN }}

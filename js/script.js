@@ -82,7 +82,7 @@ navbar.classList.remove('active');
     console.log(body);
 
     Email.send({
-    SecureToken : "90af19be-3f96-4819-b5e0-b9d1152480e9",
+    SecureToken : process.env.CONTACT_FORM_TOKEN,
     To : "inquiries1424@gmail.com",
     From : "inquiries1424@gmail.com",
     Subject : emailsubject,
