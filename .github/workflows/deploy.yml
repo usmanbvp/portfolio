@@ -21,4 +21,4 @@ jobs:
         rsync -avz --exclude='.git/' ./
 
       env:
-        CONTACT_FORM_TOKEN: ${{ secrets.CONTACT_FORM_TOKEN }}
+        CONTACT_FORM_TOKEN: ${{ secrets.GITHUB_SECRET_CONTACT_FORM_TOKEN }}
