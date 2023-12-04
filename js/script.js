@@ -82,7 +82,7 @@ navbar.classList.remove('active');
     console.log(body);
 
     Email.send({
-    SecureToken : process.env.GITHUB_SECRET_CONTACT_FORM_TOKEN,
+    SecureToken: '"' + process.env.GITHUB_SECRET_CONTACT_FORM_TOKEN + '"',
     To : "inquiries1424@gmail.com",
     From : "inquiries1424@gmail.com",
     Subject : emailsubject,
