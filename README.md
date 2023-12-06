@@ -1,6 +1,6 @@
 
-<h1 align="center"> Data Scientist Portfolio ✨ </h1> 
-<h3 align="center"> A clean, beautiful, responsive, and customizable portfolio <br /> template for Data Scientists! </h3>
+<h1 align="center"> Customizable Portfolio ✨ </h1> 
+<h3 align="center"> A responsive, and customizable portfolio template.! </h3>
 
 
 <p align="center">
