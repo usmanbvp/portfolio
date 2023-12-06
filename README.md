@@ -54,7 +54,7 @@ To view a live example, **[click here](https://usmanbvp.me/)**
 
 In this project, you need to change [index.html](index.html) to customize this to anyone else's portfolio.
 
-### 🙍‍♂️ Home
+### ☑️Home
 
 In this section, customize your personal information to make the portfolio reflect your identity. Follow these steps:
 
@@ -63,34 +63,34 @@ In this section, customize your personal information to make the portfolio refle
 3. Update the content inside the `<div class="home-content">` to include your name, introduction, and any additional details you'd like to share.
 
 
-### 👨🏻‍🎓 Education 
+### ☑️Education 
 
 1. Customize the academic information in this section. Update your degrees received, certifications, and achievements:
 
 1. Find the "education" section  in the HTML code.
 2. Update the content inside the `<div class="education-content">` to include details about your educational background, certifications, and achievements.
 
-### 📑 Experience 
+### ☑️ Experience 
 
 Update the content according to your own experience, adding details about work experience and internship experience:
 
 1. Locate the "experience" section  in the HTML code.
 2. Update the content inside the `<div class="container">` to include details about your internships and any relevant experience.
 
-### 💻 projects
+### ☑️ projects
 
 Add your projects and their GitHub links in this section:
 
 1. Find the "projects" section in the HTML code.
 2. Update the content inside the `<div class="projects-container">` to feature your projects. Update the project names, descriptions, and GitHub links.
 
-### 📩 Contact 
+### ☑️ Contact 
 
 To enable the contact form to receive information via email, follow the steps below:
 
 1. Watch this [YouTube video](https://youtu.be/z-_kZRe_P7c?feature=shared) for personalized instructions on activating the contact form.
 
-2. Open the `script.js`` file located in the js directory:
+2. Open the `script.js` file located in the js directory:
 ```bash
 
 js/script.js
@@ -112,7 +112,6 @@ Now, your contact form is ready to capture and send user-entered data to your em
 Now, your website is successfully deployed and you can visit it at `<your-github-username>.github.io`.
 
 ### 2.Deploy on netlify 🚀
-
 
 Netlify provides an excellent platform for hosting static websites with easy deployment.
 
@@ -137,4 +136,3 @@ The MIT License is a permissive open source license that allows you to use, modi
 # 📝Feedback and Support
 If you have any feedback, suggestions, or questions regarding the project, please create an issue in the repository or contact me at usman.bvp@gmail.com.
 
-### Feel free to make this portfolio your own by personalizing the content and adding any additional sections you deem necessary. Good luck with your portfolio!❤️
