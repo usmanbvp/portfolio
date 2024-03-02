@@ -162,7 +162,7 @@ span {
     box-shadow: none;
 }
 
-/*education section styling*/
+/*education section */
 
 .education h2 {
     margin-top: 0.8rem;
@@ -213,7 +213,7 @@ span {
     color: #0ef;
 }
 
-/*experience section styling*/
+/*experience section */
 .experience .internship-title {
     color: #0ef;
     font-size: 2.2rem;
@@ -225,6 +225,11 @@ span {
 .experience p {
     font-size: 1.6rem;
     line-height: 1.9;
+}
+
+.experience .spacing{
+    margin-left: 10px;
+
 }
 /* projects section styling*/
 .projects h2{
@@ -268,19 +273,19 @@ span {
     margin: 1rem 0 3rem;
 }
 .btn {
-    display: inline-block; /* Make the button a block element */
-    margin-top: 15px; /* Adjust the top margin as needed */
+    display: inline-block; 
+    margin-top: 15px; 
 }
 
 .center-button {
         display: flex;
         justify-content: center;
-        margin-top: 20px; /* Adjust the margin as needed */
-        text-align: center; /* Center text horizontally */
+        margin-top: 20px; 
+        text-align: center; 
 }
 
 
-/* contact section stylings*/
+/* contact section */
 .contact h2{
     margin-bottom: 3rem;
 }
@@ -438,23 +443,8 @@ span {
     .projects h2 {
         margin-bottom: 3rem;
     }
-
-    .portfoilo h2 {
-        margin-bottom: 3rem; 
-    }
-
-    .portfoilo-container {
-        grid-template-columns: repeat(2, lfr);
-    }
-
 }
 
-
-@media (max-width: 617px) {
-    .portfoilo-container {
-        grid-template-columns: 1lfr;
-    }
-}
 
 @media (max-width: 450px){
     html {
